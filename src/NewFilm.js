@@ -37,6 +37,7 @@ const NewFilm = () => {
 
   return (
     <div>
+    <h1>Liste des Films Ajouter</h1>
       <div className="bloglist">
         {films.map((film, index) => (
           <div key={index}>
